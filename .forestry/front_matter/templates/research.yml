@@ -8,3 +8,5 @@ fields:
     required: false
   label: Research Area 1
   description: Research area 1 description.
+pages:
+- content/test.md
