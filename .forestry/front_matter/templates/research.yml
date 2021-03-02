@@ -1,4 +1,10 @@
 ---
 label: Research
 hide_body: true
-fields: []
+fields:
+- name: research_area_1
+  type: text
+  config:
+    required: false
+  label: Research Area 1
+  description: Research area 1 description.
