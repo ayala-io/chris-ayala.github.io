@@ -2,7 +2,6 @@
 bg_image = ""
 category = ""
 description = "test"
-draft = true
 image = ""
 information = []
 title = "Test"
