@@ -34,5 +34,3 @@ fields:
       path: 
   label: Select Field
   description: test
-pages:
-- content/test.md
