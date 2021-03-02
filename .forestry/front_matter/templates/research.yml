@@ -8,5 +8,31 @@ fields:
     required: false
   label: Research Area 1
   description: Research area 1 description.
+- name: test1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Test1
+  description: Test1
+- name: select_field
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - test1
+    - " test2"
+    - test3
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Select Field
+  description: test
 pages:
 - content/test.md
