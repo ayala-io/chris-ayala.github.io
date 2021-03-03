@@ -41,3 +41,5 @@ fields:
   - type: text
     name: link
     label: link
+pages:
+- data/en/Members/member-ayala.md
