@@ -3,14 +3,34 @@ label: Member
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
+  name: name
+  label: Name
+  description: Name of the member
 - type: text
   name: email
   label: email
 - type: file
-  name: bg_image
-  label: bg_image
+  name: profile_picture
+  label: Profile Picture
+  description: Profile picture of member
+  config:
+    maxSize: 64
+- name: research_topic
+  type: text
+  config:
+    required: false
+  label: Research Topic
+  description: Short summary of research topic(s).
+- name: hobbies
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Hobbies
+  description: List of hobbies
 - type: field_group_list
   name: social
   label: social
